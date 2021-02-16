@@ -37,7 +37,7 @@ class ScrapdaoTest {
 
 	@Test
 	void testSave() {
-		Scrap s= new Scrap("nancy","24-12-2000","scorpion","8765","chanda chamke");
+		Scrap s= new Scrap("nancy","me", "24-12-2000","scorpion","8765","chanda chamke");
 		int res=scrapdao.save(s);
 		
 		assertTrue(res>0);
@@ -48,7 +48,7 @@ class ScrapdaoTest {
     @Test
 	public void testUpdate() {
 		
-		Scrap s= new Scrap(5,"updateddd","24-89-9878", "abc", "77778888","all izz well");
+		Scrap s= new Scrap(5,"updateddd","me only","24-89-9878", "abc", "77778888","all izz well");
 		int res=scrapdao.update(s);
 		assertTrue(res>0);
 		

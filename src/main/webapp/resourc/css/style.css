@@ -1,0 +1,19 @@
+
+
+
+
+h1
+{
+	color: red;
+}
+
+body {
+
+    background-image: url("/Scrapbook/urltoimg/teddy.jpg");
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	background-size: cover;
+	font-size: 25px;
+	font-style: italic;
+	font-family: cursive;
+}
