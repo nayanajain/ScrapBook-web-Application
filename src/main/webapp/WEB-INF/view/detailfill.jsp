@@ -34,7 +34,7 @@
 
     </head>
     <body>
-    <h1>Scrapppp</h1>
+    <h1> New Scrap</h1>
         <div>
             <form:form action="save" modelAttribute="listofrecords">
                 <table style="text-align: center;">
@@ -66,7 +66,7 @@
                 </table>
             </form:form>
             
-            <img alt="imgss" src="/Scrapbook/urltoimg/imgppt.PNG">
+           <!--  <img alt="imgss" src="/Scrapbook/urltoimg/imgppt.PNG">  -->
         </div>
     </body>
 </html>
