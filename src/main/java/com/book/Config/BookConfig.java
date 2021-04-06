@@ -97,13 +97,6 @@ public class BookConfig implements WebMvcConfigurer {
 		.addResourceLocations("/resourc/imgs/");     //shorten image url
 	}  
 	
-	
-	
-	
-	 
-	 
-
-	
 	 
 
 }
